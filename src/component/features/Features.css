@@ -1,0 +1,45 @@
+.features {
+  background: url("../../asset/Brakes.png");
+  height: 92vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.features .features__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 80%;
+  color: #fff;
+  width: 30%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1316px) {
+  .features .features__content {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .features .features__content {
+    width: 60%;
+  }
+}
+.features__content h1 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.features__content p {
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  padding: 0 20px 0 0;
+}
+
+.feature ul {
+  margin-left: 1.5rem;
+}
+.feature ul li {
+  line-height: 2;
+}

@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className=" container nav">
           <img src={logo} alt="WebSite Logo" />
           <div className="nav_item">
-            <ul style={open ? { right: "0" } : { right: "100%" }}>
+            <ul style={open ? { right: "0" } : { left: "1000%" }}>
               <li>
                 <Link to="/">Home</Link>
               </li>
