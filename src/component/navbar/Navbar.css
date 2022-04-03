@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 2rem;
+  z-index: 99;
 }
 
 .nav img {
@@ -57,6 +58,7 @@
     width: 200px;
     height: fit-content;
     border-radius: 5px;
+    z-index: 999;
   }
   .nav_item ul li {
     margin-left: 0;
