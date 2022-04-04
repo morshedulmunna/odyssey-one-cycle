@@ -15,11 +15,12 @@ const ReviewsDetails = ({ review }) => {
         </div>
       </div>
       <div className="review">
+        <h4> {title} </h4>
         <div className="ratting">
           <span style={{ marginRight: "12px" }}> {ratting} </span>
           <Rating ratingValue={rate} readonly={true} size={22} />
         </div>
-        <h4> {title} </h4>
+
         <p>{description}</p>
       </div>
       <div className="status">
