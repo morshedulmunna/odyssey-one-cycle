@@ -44,3 +44,11 @@
   font-size: 12px;
   color: gray;
 }
+
+/* review */
+.review h4 {
+  margin: 10px 0;
+}
+.review p {
+  padding: 0 20px 0 0;
+}

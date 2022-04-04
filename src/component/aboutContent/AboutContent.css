@@ -1,0 +1,32 @@
+.about_page {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(190, 190, 190, 0) 0%,
+      rgb(0, 0, 0, 2) 100%
+    ),
+    url("../../asset/bikeweb_05-Current-View.png");
+  height: 93vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.about_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 50%;
+  margin: auto;
+}
+.about_wrapper h1 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.about_wrapper p {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.about_wrapper span {
+  color: var(--primary);
+}
