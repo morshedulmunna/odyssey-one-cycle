@@ -28,8 +28,9 @@ const AboutContent = () => {
             as an alternative to automobiles.
           </p>
 
-          <span>Thanks For Visiting Our Site</span>
-          <span>Design and Develop by morshedulmunna</span>
+          <div className="span">
+            <span>© 2022-2025 morshedulmunna All Rights Reserved</span>
+          </div>
         </div>
       </div>
     </>
