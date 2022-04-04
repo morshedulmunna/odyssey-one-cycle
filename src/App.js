@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Reviews from "./pages/Reviews";
 import About from "./pages/About";
 import useLoad from "./hooks/customHook";
+import Dashboard from "./pages/Dashboard";
 
 export const ThemeContext = React.createContext([]);
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/review" element={<Reviews />} />
           <Route path="/about" element={<About />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </ThemeContext.Provider>
     </>
