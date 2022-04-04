@@ -15,85 +15,13 @@ import {
   BarChart,
   Tooltip,
   Bar,
-  Treemap,
   ResponsiveContainer,
 } from "recharts";
-const data = [
-  {
-    month: "January",
-    investment: 100000,
-    sell: 241,
-    revenue: 10401,
-  },
-  {
-    month: "February",
-    investment: 300000,
-    sell: 241,
-    revenue: 10401,
-  },
-  {
-    month: "March",
-    investment: 500000,
-    sell: 241,
-    revenue: 10401,
-  },
-  {
-    month: "April",
-    investment: 300000,
-    sell: 423,
-    revenue: 24500,
-  },
-  {
-    month: "May",
-    investment: 500000,
-    sell: 726,
-    revenue: 67010,
-  },
-  {
-    month: "Jun",
-    investment: 600000,
-    sell: 529,
-    revenue: 40405,
-  },
-  {
-    month: "July",
-    investment: 900000,
-    sell: 601,
-    revenue: 50900,
-  },
-  {
-    month: "August",
-    investment: 200000,
-    sell: 670,
-    revenue: 61000,
-  },
-  {
-    month: "September",
-    investment: 500000,
-    sell: 670,
-    revenue: 61000,
-  },
-  {
-    month: "October",
-    investment: 900000,
-    sell: 670,
-    revenue: 61000,
-  },
-  {
-    month: "November",
-    investment: 500000,
-    sell: 670,
-    revenue: 61000,
-  },
-  {
-    month: "December",
-    investment: 600000,
-    sell: 670,
-    revenue: 61000,
-  },
-];
+import useDataLoad from "../hooks/useDataLoad";
 
 const Dashboard = () => {
+  const [data] = useDataLoad();
+
   return (
     <>
       <div className="dashboard">
