@@ -1,7 +1,11 @@
+import { useContext } from "react";
+import { ThemeContext } from "../../App";
 import "./Review.css";
 import ReviewsDetails from "./ReviewsDetails";
 
 const Review = () => {
+  const reviews = useContext(ThemeContext);
+
   return (
     <>
       <div className="review_section">
@@ -14,7 +18,9 @@ const Review = () => {
                 <p>Review</p>
                 <p>Status</p>
               </div>
-              <ReviewsDetails />
+              {reviews.map((review) => (
+                <ReviewsDetails key={review.id} review={review} />
+              ))}
             </div>
           </div>
         </div>
