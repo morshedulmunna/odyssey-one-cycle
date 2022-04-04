@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/b27e0be0-1bd3-4929-83c6-d4732e901587._CR0,0,200,200_SX48_.jpg",
+    "name": "\tKnitra1980",
+    "location": "Austin, Texsus",
+    "ratting": 4.7,
+    "rate": 80,
+    "title": " Very Good bike for the money. *****UPDATED review 6 months",
+    "description": "So far so good. I bought this for my 16 yr old son He is a big guy 6 ft 250 pds and I was worried it would be too small as it said medium frame. But it fits him perfectly and not small at all. he put it together quickly and easily. Really only had to attach front",
+    "status": "Good Item"
+  },
+  {
+    "id": "2",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/0439e496-f33e-4c4f-8ca1-247a5400a847._CR0,7.0,319,319_SX48_.jpg",
+    "name": "\tKman1",
+    "location": "USA, Texsus",
+    "ratting": 4.9,
+    "rate": 90,
+    "title": " All things being equal.",
+    "description": "I bought this for my wife so she could go on bike path riding excursions with some of her friends and leave it here in FL. She has a higher quality bike up North. I have to tell, after getting a pro set-up on this we are both amazed how well it does the job it's intended for. It even works ok for some of the easier National Forrest single tracks. For me the real value is one less item to transport semi annually and the comfort of knowing if the bike ever goes missing I simply hit buy again",
+    "status": "Good Product"
+  },
+  {
+    "id": "3",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+    "name": "A. J. Perras",
+    "location": "California, Us",
+    "ratting": 3.2,
+    "rate": 40,
+    "title": "Buyer beware - not a quality bike",
+    "description": "I had this bike for under five months, and logged about 330 miles on it; most of the miles were road miles around my town with varying elevations doing between 15-20mph, usually no less than 10 miles at a time. I would not recommend this bike to anyone who wants to use it for anything more than leisurely, slow rides around a neighborhood for the following reasons:",
+    "status": "Bad Quality"
+  },
+  {
+    "id": "4",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars/1e97a22d-2e7d-4798-91bc-0edbea7d30a4._CR0,0,500,500_SX48_.jpg",
+    "name": "Jamie Tanner",
+    "location": "Florida, USA",
+    "ratting": 5,
+    "rate": 100,
+    "title": " I love that this bike fits snugly against the wall when ...",
+    "description": "I really wanted an exercise machine I could use at home for the days I don't make it to the gym (which, I'll admit, is most days). However, I also have a small apartment with limited floor and storage space. I love that this bike fits snugly against the wall when not in use without sacrificing comfort or sturdiness (even with my big booty) in order to be compact.",
+    "status": "Best Item"
+  },
+  {
+    "id": "5",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61NhmyTS6pL._CR94,0,312,312_SX48_.jpg",
+    "name": "StephYC",
+    "location": "Canada",
+    "ratting": 4.5,
+    "rate": 88,
+    "title": "Compact, Silent, Excellent Buy",
+    "description": "I bought this bike because I needed an exercise bike that was quiet. My old bike was not magnetic and was very loud. so loud i couldnt hear the TV or anything else over it. This bike is completely silent. i LOVE it. It folds up nicely, i can roll it out of the way, and move it back easily. I can exercise while my baby is napping without waking her u,p and my other kids can play and hear each other.",
+    "status": "Good Item"
+  },
+  {
+    "id": "6",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/d1a9fea3-fc05-4b85-9c16-6a29293ec8dd._CR62,0,375,375_SX48_.jpg",
+    "name": "ReeserRoo",
+    "location": "Austin, Texsus",
+    "ratting": 4.2,
+    "rate": 82,
+    "title": "Mostly Solid, but You Get What You Pay For",
+    "description": "I began riding this bike in January, and through semi-regular use, I put 315 miles on it by mid-March. Life got in the way, and I didn't ride again until June 2nd. From that date through early-August, I put an additional 770 miles on. To work toward my fitness and weight loss goals, I adhered to the following 35 minute regimen, six days per week:",
+    "status": "Avarage Item"
+  }
+]

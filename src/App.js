@@ -4,8 +4,13 @@ import Navbar from "./component/navbar/Navbar";
 import Home from "./pages/Home";
 import Reviews from "./pages/Reviews";
 import About from "./pages/About";
+import useLoad from "./hooks/customHook";
 
 function App() {
+  const [review, setReview] = useLoad();
+
+  console.log(review);
+
   return (
     <>
       <Navbar />

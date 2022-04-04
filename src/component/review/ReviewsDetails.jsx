@@ -1,7 +1,10 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
+import { useState } from "react";
+import { Rating } from "react-simple-star-rating";
 
 const ReviewsDetails = () => {
+  const [rating, setRating] = useState(90);
   return (
     <div className="reviews">
       <div className="reviewer">
@@ -16,12 +19,8 @@ const ReviewsDetails = () => {
       </div>
       <div className="review">
         <div className="ratting">
-          <span style={{ marginRight: "10px" }}>4.9</span>
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
+          <span style={{ marginRight: "12px" }}>4.9</span>
+          <Rating ratingValue={rating} readonly={true} size={22} />
         </div>
         <h4>Highly Recommended Products</h4>
         <p>

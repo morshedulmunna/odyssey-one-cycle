@@ -51,4 +51,8 @@
 }
 .review p {
   padding: 0 20px 0 0;
+  color: rgb(170, 170, 170);
+}
+.status span {
+  margin-right: 5px;
 }
