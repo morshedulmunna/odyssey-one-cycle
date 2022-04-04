@@ -1,38 +1,29 @@
 import React from "react";
-import { AiFillStar } from "react-icons/ai";
-import { useState } from "react";
 import { Rating } from "react-simple-star-rating";
 
 const ReviewsDetails = ({ review }) => {
-  console.log(review);
+  const { rate, ratting, name, description, location, status, title, image } =
+    review;
 
   return (
     <div className="reviews">
       <div className="reviewer">
-        <img
-          src="https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/70575c38-1215-426d-b99f-313578a907e3._CR1,0,497,497_SX48_.jpg"
-          alt=""
-        />
+        <img src={image} alt="ReviewerPhoto" />
         <div className="reviewer__Name">
-          <p>Jonathan Nolan</p>
-          <span>Austin, Texas</span>
+          <p>{name}</p>
+          <span> {location} </span>
         </div>
       </div>
       <div className="review">
         <div className="ratting">
-          <span style={{ marginRight: "12px" }}>4.9</span>
-          <Rating ratingValue={review.rate} readonly={true} size={22} />
+          <span style={{ marginRight: "12px" }}> {ratting} </span>
+          <Rating ratingValue={rate} readonly={true} size={22} />
         </div>
-        <h4>Highly Recommended Products</h4>
-        <p>
-          I have used Fitbits for many years - all the way back to the days of
-          the first Fitbit Flex. I have upgraded over the years to the Charge,
-          the Charge HR, Charge 2, and now the Versa I and finally the II.
-        </p>
+        <h4> {title} </h4>
+        <p>{description}</p>
       </div>
       <div className="status">
-        <span>13/6/2021</span>
-        <span>8:23PM</span>
+        <span> {status} </span>
       </div>
     </div>
   );
