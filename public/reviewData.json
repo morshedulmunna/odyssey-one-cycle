@@ -2,7 +2,7 @@
   {
     "id": "1",
     "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/b27e0be0-1bd3-4929-83c6-d4732e901587._CR0,0,200,200_SX48_.jpg",
-    "name": "\tKnitra1980",
+    "name": "Knitra1",
     "location": "Austin, Texsus",
     "ratting": 4.7,
     "rate": 80,
@@ -13,7 +13,7 @@
   {
     "id": "2",
     "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/0439e496-f33e-4c4f-8ca1-247a5400a847._CR0,7.0,319,319_SX48_.jpg",
-    "name": "\tKman1",
+    "name": "Kman1",
     "location": "USA, Texsus",
     "ratting": 4.9,
     "rate": 90,
@@ -46,7 +46,7 @@
   {
     "id": "5",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61NhmyTS6pL._CR94,0,312,312_SX48_.jpg",
-    "name": "StephYC",
+    "name": "StephYC1",
     "location": "Canada",
     "ratting": 4.5,
     "rate": 88,

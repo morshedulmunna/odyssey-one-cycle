@@ -59,3 +59,12 @@
   margin-right: 5px;
   color: gray;
 }
+
+@media screen and (max-width: 780px) {
+  .reviews {
+    grid-template-columns: 2fr 10fr;
+  }
+  .review_title {
+    grid-template-columns: 2fr 10fr;
+  }
+}

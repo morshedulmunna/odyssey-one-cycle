@@ -9,15 +9,23 @@ const AboutContent = () => {
           <img src={logo} alt="" />
           <h1>About</h1>
           <p>
-            This is a fictional firm made just to show you how design and
-            animations are handled in Adobe XD. All of this is made to help
-            those who have a desire to learn web design and animation design.
-            All renders are made in the Adobe Dimensions 3D program and are free
-            to use. <br /> <br /> This is a fictional firm made just to show you
-            how design and animations are handled in Adobe XD. All of this is
-            made to help those who have a desire to learn web design and
-            animation design. All renders are made in the Adobe Dimensions 3D
-            program and are free to use.
+            bicycle, also called bike, two-wheeled steerable machine that is
+            pedaled by the rider's feet. On a standard bicycle the wheels are
+            mounted in-line in a metal frame, with the front wheel held in a
+            rotatable fork. The rider sits on a saddle and steers by leaning and
+            turning handlebars that are attached to the fork. The feet turn
+            pedals attached to cranks and a chainwheel.
+            <br />
+            <br />
+            Bicycles are widely used for transportation, recreation, and sport
+            (see cycling). Throughout the world, bicycles are essential to
+            moving people and goods in areas where there are few automobiles.
+            Globally, there are twice as many bicycles as automobiles, and they
+            outsell automobiles three to one. The Netherlands, Denmark, and
+            Japan actively promote bicycles for shopping and commuting. In the
+            United States, bike paths have been constructed in many parts of the
+            country, and bicycles are encouraged by the United States government
+            as an alternative to automobiles.
           </p>
 
           <span>Thanks For Visiting Our Site</span>
