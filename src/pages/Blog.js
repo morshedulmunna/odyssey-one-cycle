@@ -1,5 +1,7 @@
 import React from "react";
 import "./Blog.css";
+import Fade from "react-reveal/Fade";
+import Pulse from "react-reveal/Pulse";
 import contextAPi from "../asset/context-api.png";
 import semanticTag from "../asset/HTML5-Semantic-Elements.jpg";
 
@@ -9,10 +11,14 @@ const Blog = () => {
       <div className="wrapper_blog">
         <div className="container blog ">
           <div className="context_Api">
-            <img src={contextAPi} alt="" />
+            <Fade left>
+              <img src={contextAPi} alt="" />
+            </Fade>
             <div className="blog_text">
               <span>Published by 04 April 2022</span>
-              <h1>What is Context API ? - React Router Hook Context API ?</h1>
+              <Pulse>
+                <h1>What is Context API ? - React Router Hook Context API ?</h1>
+              </Pulse>
               <p>
                 the Context API helps to avoid prop drilling in our React
                 application. if you don't know about the term prop drilling. So
@@ -37,9 +43,13 @@ const Blog = () => {
 
           <div className="semantic_tag">
             <span>Published by 04 April 2022</span>
-            <h1>What Is Semantic HTML Tag ?</h1>
+            <Fade bottom>
+              <h1>What Is Semantic HTML Tag ?</h1>
+            </Fade>
             <div className="sementic_content">
-              <img src={semanticTag} alt="" />
+              <Fade right>
+                <img src={semanticTag} alt="" />
+              </Fade>
               <p>
                 Semantic HTML5 addresses this shortcoming by defining specific
                 tags to indicate clearly what role is played by the content
@@ -53,7 +63,7 @@ const Blog = () => {
                 engines to correctly index the page.
                 <br />
                 <br />
-                <h2>Now Some Example For Semantic Tag in HTML5:</h2>
+                <h2>Now Some Example of Semantic Tag in HTML5:</h2>
                 <ol>
                   <li>Section</li>
                   <li>Article</li>

@@ -9,6 +9,7 @@ import About from "./pages/About";
 import useLoad from "./hooks/customHook";
 import Dashboard from "./pages/Dashboard";
 import Blog from "./pages/Blog";
+import Footer from "./component/footer/Footer";
 
 export const ThemeContext = React.createContext([]);
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="*" element={<Error404 />} />
         </Routes>
       </ThemeContext.Provider>
+      <Footer />
     </>
   );
 }
