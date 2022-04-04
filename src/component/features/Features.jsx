@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <>
       <div className="features ">
-        <Fade bottom>
+        <Fade top>
           <div className="features__content">
             <h1>Rear brakes</h1>
             <p>

@@ -1,5 +1,6 @@
 import "./Header.css";
 import Fade from "react-reveal/Fade";
+import Pulse from "react-reveal/Pulse";
 
 const Header = () => {
   return (
@@ -16,7 +17,9 @@ const Header = () => {
               currently available in the market from the various brands
               operating in Bangladesh.
             </p>
-            <button>Buy One</button>
+            <Pulse>
+              <button>Buy One</button>
+            </Pulse>
           </div>
         </Fade>
       </div>
