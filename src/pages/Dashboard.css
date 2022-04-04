@@ -1,4 +1,30 @@
 .chart-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+}
+
+.chat_section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.chart-1 {
+  border: 1px solid lightgray;
+  padding: 2rem;
+}
+
+.chart-2 {
+  border: 1px solid lightgray;
+  padding: 2rem;
+}
+
+.chat_section2 h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.dashboard {
+  background-color: black;
+  height: 100vh;
 }
