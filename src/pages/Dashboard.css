@@ -1,21 +1,32 @@
-.chart-wrapper {
+.dashboard {
+  background-color: black;
+  height: fit-content;
 }
 
 .chat_section1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .chart-1 {
   border: 1px solid lightgray;
   padding: 2rem;
+  width: 40%;
+  height: 350px;
 }
 
 .chart-2 {
   border: 1px solid lightgray;
   padding: 2rem;
+  width: 40%;
+  height: 350px;
+}
+
+.chat_section2 {
+  padding-bottom: 2rem;
 }
 
 .chat_section2 h3 {
@@ -24,7 +35,19 @@
   margin-bottom: 1rem;
 }
 
-.dashboard {
-  background-color: black;
-  height: 100vh;
+.lineChat {
+  width: 100%;
+  height: 400px;
+}
+
+@media screen and (max-width: 780px) {
+  .chat_section1 {
+    flex-direction: column;
+  }
+  .chart-1 {
+    width: 100%;
+  }
+  .chart-2 {
+    width: 100%;
+  }
 }
