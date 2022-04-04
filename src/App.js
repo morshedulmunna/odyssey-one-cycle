@@ -8,6 +8,7 @@ import Reviews from "./pages/Reviews";
 import About from "./pages/About";
 import useLoad from "./hooks/customHook";
 import Dashboard from "./pages/Dashboard";
+import Blog from "./pages/Blog";
 
 export const ThemeContext = React.createContext([]);
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/review" element={<Reviews />} />
           <Route path="/about" element={<About />} />
+          <Route path="/blogs" element={<Blog />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
