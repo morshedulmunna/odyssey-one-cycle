@@ -10,7 +10,7 @@ const Error404 = () => {
           <div class="cloak"></div>
         </div>
       </div>
-      <div class="info">
+      <div class="infoError">
         <h2>We can't find that page</h2>
         <p>
           We're fairly sure that page used to be here, but seems to have gone

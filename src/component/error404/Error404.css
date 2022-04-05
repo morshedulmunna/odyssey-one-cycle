@@ -72,12 +72,12 @@
     );
 }
 
-.info {
+.infoError {
   text-align: center;
   line-height: 1.5;
   max-width: clamp(16rem, 90vmin, 25rem);
 }
-.info > p {
+.infoError > p {
   margin-bottom: 3rem;
 }
 @-webkit-keyframes swing {
