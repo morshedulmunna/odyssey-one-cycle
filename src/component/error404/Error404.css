@@ -9,10 +9,7 @@
   --lit-header: #e6e6e6;
   --speed: 2s;
 }
-* {
-  box-sizing: border-box;
-  transform-style: preserve-3d;
-}
+
 @property --swing-x {
   initial-value: 0;
   inherits: false;
@@ -67,7 +64,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  color: var(--shadow);
   filter: blur(1.5vmin);
   transform: scale(1.05) translate3d(0, 12%, -10vmin)
     translate(
@@ -75,30 +71,7 @@
       calc((var(--swing-y) * 0.05) * 1%)
     );
 }
-.cloak {
-  animation: swing var(--speed) infinite alternate-reverse ease-in-out;
-  height: 100%;
-  width: 100%;
-  transform-origin: 50% 30%;
-  transform: rotate(calc(var(--swing-x) * -0.25deg));
-  background: radial-gradient(40% 40% at 50% 42%, transparent, #000 35%);
-}
-.cloak__wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: hidden;
-}
-.cloak__container {
-  height: 250vmax;
-  width: 250vmax;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 .info {
   text-align: center;
   line-height: 1.5;

@@ -17,7 +17,6 @@ const Error404 = () => {
           missing. We do apologise on it's behalf.
         </p>
         <Link id="homePAge" to="./">
-          {" "}
           Home Page{" "}
         </Link>
       </div>
